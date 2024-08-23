@@ -1,0 +1,118 @@
+/* Basic styles for the body and header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background:linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);*/
+    background: linear-gradient(90deg, rgba(255, 127, 80, 0.6), rgba(255, 99, 71, 0.6), rgba(255, 215, 0, 0.6), rgba(50, 205, 50, 0.6), rgba(0, 191, 255, 0.6), rgba(138, 43, 226, 0.6), rgba(255, 20, 147, 0.6))
+}
+
+header {
+    
+    color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Form styling */
+form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,20);
+}
+
+/* Input and button styling */
+input[type="text"], input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0,0,0,10);
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Student list section styling with conditional scrollbar */
+.student-list {
+    margin-top: 20px;
+    max-height: 400px; /* Set a fixed height */
+    overflow-y: auto;  /* Enable scrollbar when needed */
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0,0,0,20);
+    
+}
+
+.student-list h2 {
+    text-align: center;
+    
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Button styling for edit and delete actions */
+.edit-btn, .delete-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #033162;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: black;
+    
+}
